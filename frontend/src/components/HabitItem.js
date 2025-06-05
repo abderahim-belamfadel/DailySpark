@@ -2,9 +2,10 @@
 import React from 'react';
 
 const HabitItem = ({ habit, markComplete, deleteHabit }) => {
+  const completed = habit.completedDates && habit.completedDates.length > 0;
   return (
     <div className="habit-item">
-      <span style={{ textDecoration: habit.completed ? 'line-through' : 'none' }}>
+      <span style={{ textDecoration: completed ? 'line-through' : 'none' }}>
         {habit.name}
       </span>
       <button onClick={() => markComplete(habit._id)}>Complete</button>
