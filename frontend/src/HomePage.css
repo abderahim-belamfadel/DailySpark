@@ -1,0 +1,24 @@
+.home-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.habit-form {
+  margin-bottom: 1rem;
+}
+
+.habit-form input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.habit-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.habit-item button {
+  margin-left: 0.5rem;
+}
